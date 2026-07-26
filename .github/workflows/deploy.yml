@@ -36,4 +36,4 @@ jobs:
     steps:
       - name: Output information
         run: |        
-           run: echo "MONGODB db :${{ env.MONGODB_DB_NAME}} "  
+          echo "MONGODB db :${{ env.MONGODB_DB_NAME}} "  
