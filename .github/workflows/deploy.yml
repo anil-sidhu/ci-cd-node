@@ -4,6 +4,7 @@ on:
     branches:
       - main
       - dev
+      - docker
 env:
   MONGODB_DB_NAME: company
 jobs:
